@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Subfooter from './Subfooter.jsx'
 import Datafetch from './Datafetch.jsx'
+import Home from './Home.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/" element={<App/>}/>
       <Route path="/subfooter" element={<Subfooter/>}/>
       <Route path="/data" element={<Datafetch/>}/>
+      <Route path="/home" element={<Home/>}/>
       
     </Routes>
     </BrowserRouter>
